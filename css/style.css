@@ -17,9 +17,10 @@ header{
 
 .container{
     border-radius: 2%;
-    background-color: #cecece;
+    background-color: #d0d0d0;
     margin: 0 auto;
     margin-top: 20px;
+    box-shadow: -5px 5px 1px gray;
 }
 
 .title{
@@ -51,37 +52,55 @@ header{
 .bt-number{
     display: flex;
     flex-wrap: wrap;
-    width: 75%;
+    width: 74%;
     padding: 10px;
 }
 
 .bt-op{
-    width: 25%;
+    width: 20%;
 }
 
 .buttons{
     margin: 5px;
-    border: 0.1px solid gray;
-    border-radius: 1%;
-    font-size: 25px;
+    border: none;
+    border-radius: 5%;
+    font-size: 40px;
+    background-color: #bbbbbb;
+    box-shadow: -5px 5px 1px gray;
 }
 
 .bt-size{
-    height: 70px;
-    width: 70px;
+    height: 75px;
+    width: 75px;
 }
 
 .bt-size-big{
-    height: 70px;
-    width: 150px;
+    height: 75px;
+    width: 160px;
+}
+
+.bt-size-small{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 75px;
+    height: 50px;
+    font-size: 25px;
 }
 
 .bt-conf{
-    font-size: 20px;
+    font-size: 25px;
+}
+
+.white-font{
+    color: white;
 }
 
 .bg-orange{
-    background-color: orange;
+    background-color: #ff9f0a;
+}
+
+.bg-blue{
+    background-color: #77a8b0;
 }
 
 *{
