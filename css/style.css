@@ -20,7 +20,6 @@ header{
     background-color: #d0d0d0;
     margin: 0 auto;
     margin-top: 20px;
-    box-shadow: -5px 5px 1px gray;
 }
 
 .title{
@@ -66,7 +65,7 @@ header{
     border-radius: 5%;
     font-size: 40px;
     background-color: #bbbbbb;
-    box-shadow: -5px 5px 1px gray;
+    box-shadow: -2px 2px 1px gray;
 }
 
 .bt-size{
