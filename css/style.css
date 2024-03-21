@@ -15,10 +15,9 @@ header{
     margin-top: 100px;
 }
 
-.container-block{
+.container{
     border-radius: 2%;
     background-color: #cecece;
-    height: 600px;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -45,8 +44,44 @@ header{
     
 }
 
+.container-flex{
+    display: flex;
+}
+
+.bt-number{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    padding: 10px;
+}
+
+.bt-op{
+    width: 25%;
+}
+
+.buttons{
+    margin: 5px;
+    border: 0.1px solid gray;
+    border-radius: 1%;
+    font-size: 25px;
+}
+
+.bt-size{
+    height: 70px;
+    width: 70px;
+}
+
+.bt-size-big{
+    height: 70px;
+    width: 150px;
+}
+
 .bt-conf{
     font-size: 20px;
+}
+
+.bg-orange{
+    background-color: orange;
 }
 
 *{
